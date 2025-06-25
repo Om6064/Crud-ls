@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[type=radio]:checked {
+    background-image: url('/download.svg');
+    background-size: 1em 1em;
+    background-color: #2563eb !important;
+    background-position: center center;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
